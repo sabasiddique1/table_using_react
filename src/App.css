@@ -1,0 +1,53 @@
+body{
+    background-color:#F2F2F2;
+}
+
+.app-container {
+    display: block;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #3E688C ;
+    border-radius: 10px;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+  }
+  
+  th {
+background-color: #192640;  }
+  
+  td {
+    background-color: #3E688C;
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }
+
+  button {
+    color: rgb(239, 239, 239);
+    background-color:#BF343F ;
+    border: 10px solid #bac8e4;
+    border-radius: 100px;
+    padding-right: 50px;
+  }
